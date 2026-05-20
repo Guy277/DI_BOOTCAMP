@@ -162,6 +162,7 @@ def main():
 main()
 
 
+
 # Exercise 8: Pizza Toppings
 
 # Base price of the pizza
