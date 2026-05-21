@@ -70,3 +70,4 @@ print(macdonald.get_info())
 
 print()
 print(macdonald.get_short_info())
+
