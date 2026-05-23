@@ -26,6 +26,28 @@ def find_oldest_cat(cat1, cat2, cat3):
 oldest_cat = find_oldest_cat(cat1, cat2, cat3)
 print(f"The oldest cat is {oldest_cat.name}, and is {oldest_cat.age} years old.")
 
+""" #others solutions:
+# Exercice 1 
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        print(f"Cat name is {name} and age is {age}")
+    
+cat1=Cat("boby",7)
+cat2=Cat("malosse",6)
+cat3=Cat("minou",9) 
+    
+def find_oldest(cat1,cat2,cat3):
+    tab=[cat1,cat2,cat3]
+    oldest =tab[0]
+    for cat in tab :
+        if cat.age>oldest.age :
+            oldest=cat
+    print(f"le chat le plus age est {oldest.name}")
+    
+find_oldest(cat1,cat2,cat3) """
+
 
 
 # Exercise 2
@@ -146,4 +168,5 @@ brooklyn_safari.get_animals()
 
 print()
 brooklyn_safari.get_groups()
+
 
